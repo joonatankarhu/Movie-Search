@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 0 2em;
+    color: white;
+    font-size: calc(1rem + 1.5vmin);
+}
+
+.title {
+    width: 100%;
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    gap: 1em;
+}
+
+@media (min-width: 768px) {
+    .home {
+        padding: 0 4em;
+    }
+
+    .title {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 1000px) {
+    .movies {
+        gap: 10px;
+    }
+}
+
+.errorMessage {
+    min-height: 30vh;
+}

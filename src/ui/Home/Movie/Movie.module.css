@@ -1,0 +1,68 @@
+.movie {
+    display: block;
+    position: relative;
+    width: 46%;
+    max-width: 450px;
+    overflow: hidden;
+}
+
+.movieInfo {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 0 0.5em;
+    width: 100%;
+    bottom: 0;
+}
+
+.title {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.subInfo {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+}
+
+.releaseYear {
+    font-size: 0.5em;
+}
+
+.description {
+    font-size: 0.5em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.movie img {
+    max-height: 50vh;
+    position: relative;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+
+    .movie img {
+        width: 100%;
+    }
+
+    .movie {
+        width: 30%;
+    }
+
+    .title {
+        font-size: 0.65em;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    .movie {
+        width: 19%;
+        max-width: 450px;
+    }
+
+}

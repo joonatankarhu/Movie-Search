@@ -1,0 +1,24 @@
+.header {
+    align-items: center;
+    color: white;
+    height: 3em;
+    background-color: black;
+    display: flex;
+    font-size: calc(1rem + 2vmin);
+    margin: auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0 2em;
+}
+
+img {
+    position: absolute;
+    display: block;
+}
+
+@media (min-width: 1200px) {
+    .header {
+        padding: 0 4em;
+    }
+}

@@ -1,0 +1,45 @@
+.switchContainer {
+    display: flex;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.pagesContainer {
+    display: flex;
+    gap: 0.2em;
+    margin: 0 1em;
+    padding: 0;
+}
+
+.pageOption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: #80201e;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.pageOption:hover {
+    background-color: #c42521;
+    cursor: pointer;
+}
+
+.leftBtn, .rightBtn {
+    position: relative;
+    width: 1.5em;
+    height: auto;
+}
+
+.leftBtn:hover, .rightBtn:hover {
+    cursor: pointer;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
