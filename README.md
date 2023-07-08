@@ -1,5 +1,4 @@
-# Interview assignment
-
+Simple movie app
 # Link: https://moviesearchbeta.netlify.app
 
 Dreadful Cherry Tomatoes is a new platform to find movies. The main objective is to
